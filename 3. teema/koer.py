@@ -8,4 +8,4 @@ class Koer():
 
     def kirjeldus(self):
 
-    format("Koer nimega {} on {} aastat vana", )
+    format("Koer nimega {} on {} aastat vana".format(self.hyydnimi, self.vanus))
