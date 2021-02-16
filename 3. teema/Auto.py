@@ -12,7 +12,7 @@ class Auto():
         return pikk_nimi.title()
 
     def odomeeter(self):
-        print("Antud auto on läbi sõitnud" + str(self.odomeetri_nait) + "km.")
+        print("Antud auto on läbi sõitnud " + str(self.odomeetri_nait) + "km.")
 
     def uuenda_odomeeter(self, km):
         if km >= self.odomeetri_nait:
