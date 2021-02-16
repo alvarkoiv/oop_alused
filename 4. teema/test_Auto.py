@@ -1,7 +1,7 @@
 from Auto import Auto
 from elektriauto import elektriauto
 
-#minu_uus_auto = Auto("Audi", "A6", 2017)
+minu_uus_auto = Auto("Audi", "A6", 2017)
 alvari_uus_auto = Auto("Tesla", "Mudel 3", 2020)
 
 print(alvari_uus_auto.kirjeldus())
@@ -18,6 +18,7 @@ tesla.odomeeter()
 tesla.suurenda_odomeeter(50)
 tesla.odomeeter()
 
-#print(minu_uus_auto.kirjeldus())
-#minu_uus_auto.odomeeter()
-#minu_uus_auto.odomeetri_nait = 5
+print(minu_uus_auto.kirjeldus())
+minu_uus_auto.odomeeter()
+minu_uus_auto.odomeetri_nait = 5
+minu_uus_auto.tangi(30)
